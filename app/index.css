@@ -1,0 +1,45 @@
+.max-screen-width {
+    max-width: 1500px;
+}
+.nav-z {
+    z-index: 10;
+}
+
+.sub-title {
+    @apply font-extrabold text-neutral-600 text-2xl bg-neutral-200 w-fit px-6 py-2 rounded-full uppercase
+}
+.title {
+    @apply font-black text-5xl text-primary capitalize
+}
+
+.text-dimmed {
+    @apply text-neutral-600
+}
+
+html {
+    scroll-behavior: smooth;
+  
+  }
+  body {
+    overflow-x: hidden;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #cccccc;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
