@@ -18,7 +18,7 @@ export default function Navbar() {
             <SheetContent side="left" className="bg-black text-white">
               <ul className="flex flex-col justify-center h-full  items-center  gap-12">
                 <li>
-                  <Image src="/icon.png" width={170} height={170} alt="Logo" />
+                  <Image src="/icon-white.png" width={170} height={170} alt="Logo" />
                 </li>
                 {links.map((l) => (
                   <li key={l.href} className="text-3xl font-semibold ">
@@ -41,7 +41,7 @@ export default function Navbar() {
         </div>
         <Link href="/" className="md:w-[150px] md:h-[70px] w-[100px] h-[60px] relative">
           {inView ? (
-            <Image src="/icon.png" fill alt="Logo" className="object-contain" />
+            <Image src="/icon-white.png" fill alt="Logo" className="object-contain" />
           ) : (
             <Image src="/icon-primary.png" fill alt="Logo" className="object-contain" />
           )}
