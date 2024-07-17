@@ -96,7 +96,7 @@ export default function Form() {
                 <Checkbox
                   checked={field.value}
                   onCheckedChange={(...e) => {
-                    setAlreadyHaveWebsite(e[0]);
+                    setAlreadyHaveWebsite(e as any);
                     field.onChange(...e);
                   }}
                 />
