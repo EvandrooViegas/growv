@@ -31,7 +31,7 @@ export default function RootLayout({ children }: Props) {
       <body
         className={cn("bg-background font-sans antialiased", fontSans.variable)}
       >
-      <link rel="icon" href="/image.png" sizes="any" className="rounded-xl" />
+      <link rel="icon" href="/image-logo.png" sizes="any" className="rounded-xl" />
         <ProvidersWrapper>
           <Navbar />
 
